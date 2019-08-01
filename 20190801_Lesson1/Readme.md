@@ -15,9 +15,15 @@ git config --global user.email "email-address"
 4. Coding under your PC.  
 Step1. Create a new folder to include your Projrct.  
 `mkdir workspace`  
-Step2. Clone the Code from the github.  
+Step2. Change the dir into workspace.  
+`cd workspace`  
+Step3. Init the folder to be a new repositry.  
+`git init`  
+Step4. Connect the remote repositry and local repositry.  
+`git git remote add origin git@github.com:embedded-learning-group/Linux_Learning.git`  
+Step5. Clone the Code from the github.  
 `git clone git@github.com:embedded-learning-group/Linux_Learning.git`  
-Step3. Now the Linux_Learning folder is there. Let's Coding.  
+Step6. Now the Linux_Learning folder is there. Let's Coding.  
 * 创建文件夹：`mkdir homework`  
 * 切换到homework文件夹下并创建C文件夹：`mkdir C`  
 * 新建mian.c文件开始编程：`vim main.c`  
