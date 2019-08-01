@@ -45,3 +45,4 @@ Step3. Now the Linux_Learning folder is there. Let's Coding.
 ## Homework  
 * 查阅资料深入了解github分布式相关概念，写300字关于github分布式概念的word，提交到Homework文件夹当中，并通过Github上传以方便批阅。  
 * 在Homework文件夹下面创建C文件夹，在这个文件夹下编程，实现1到100的等差数列求和并将代码以及运行成功的结果图片保存上传至Github。  
+* 任何问题可以直接在issue中向我提问，我会及时回复！
