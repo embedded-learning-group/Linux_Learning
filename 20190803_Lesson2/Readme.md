@@ -52,7 +52,7 @@ done
 ```
 param_n=0
 echo 'param_n',$param_n
-if [ $# != 0 ]
+if [ $# != 0 ] # 这里判断shell输入的参数的个数是否为0，若为0则不执行if下面的语句，反之亦然. $#的功能是获得shell运行时输入的参数的个数.
 then
         param_n=$#
         echo "H","das",$param_n
