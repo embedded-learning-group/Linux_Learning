@@ -42,7 +42,7 @@ ls -al
 **Step4.** Senior use of the shell file.  
 1. variable(变量)define(定义)：  
 ```
-var="I am CodeMaster."   
+var=I am CodeMaster.   
 echo $var
 for file in $(ls /etc); do # 显示文件夹下面的所有文件
   echo $file
@@ -52,7 +52,7 @@ done
 ```
 param_n=0
 echo 'param_n',$param_n
-if [ $# != 0 ] # 这里判断shell输入的参数的个数是否为0，若为0则不执行if下面的语句，反之亦然. $#的功能是获得shell运行时输入的参数的个数.
+if [ $# != 0 ]
 then
         param_n=$#
         echo "H","das",$param_n
