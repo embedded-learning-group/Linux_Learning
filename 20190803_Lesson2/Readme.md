@@ -42,7 +42,7 @@ ls -al
 **Step4.** Senior use of the shell file.  
 1. variable(变量)define(定义)：  
 ```
-var=I am CodeMaster.   
+var="I am CodeMaster."   
 echo $var
 for file in $(ls /etc); do # 显示文件夹下面的所有文件
   echo $file
