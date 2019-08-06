@@ -10,8 +10,8 @@
 * Check if git is install successfully:  
 `git --version`  
 3. Config the local git's usename and the pass word so that you can connect to the github server.  
-git config --global user.name "github-username"  
-git config --global user.email "email-address"  
+`git config --global user.name "github-username"`  
+`git config --global user.email "email-address"`  
 4. Coding under your PC.  
 Step1. Create a new folder to include your Projrct.  
 `mkdir workspace`  
