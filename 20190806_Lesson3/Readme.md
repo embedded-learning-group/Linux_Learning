@@ -3,7 +3,7 @@ Step1. We need to install the GPIO and devcice Control library(wiringPi) firstly
 这里是安装的基本步骤: [wiringPi Install](https://www.cnblogs.com/uestc-mm/p/6290521.html)  
 Follow the steps to install the wiringPi.It's easyly to install the library.  
 Step2. Learn the GPIO on the BCM MODE map.
-![GPIO MAPPING]()
+![GPIO MAPPING](https://github.com/embedded-learning-group/Linux_Learning/blob/master/20190806_Lesson3/GPIO.png)
 ## Learn how to use the wiringPi Lib to Control the GPIO.  
 1. wiringPiSetup(): The function is used to initial the wiringPi lib so that we can use it correctly.
 2. pinMode(pinNumber, OUTPUT): This function is used to set the pin's mode to be OUTPUT,we also can change it into INPUT mode.
