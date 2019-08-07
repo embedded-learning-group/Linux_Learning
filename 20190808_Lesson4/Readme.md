@@ -24,7 +24,7 @@ This product is a carrier board or breakout board for Allegro’s A4988 DMOS Mic
 * Short-to-ground and shorted-load protection  
 
 Connecting Circute:  
-![connect-pic]()  
+![connect-pic](https://github.com/embedded-learning-group/Linux_Learning/blob/master/20190808_Lesson4/connect.jpg)    
 Step (and microstep) size:  
 
 | MS1 | MS2 | MS3 | Microstep Resolution |
