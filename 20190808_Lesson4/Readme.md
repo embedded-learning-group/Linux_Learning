@@ -1,10 +1,10 @@
 # Lesson4: Introduce the 42 Step Motor Control Demo.
 ## What is 42 Step Motor?
 This Picture show all the params of the Stepper Motor.If you want see detailly,please Download the pic and check on the PC directly.  
-![42-MotorStepper]()  
+![42-MotorStepper](https://github.com/embedded-learning-group/Linux_Learning/blob/master/20190808_Lesson4/src_1450336973.jpg)  
 Now We need to intoduce the detail info of 42-Motor:  
 Normally the 42-Motor have two group of wires(AC && BD),So we can see four interface of the motor. When we are going to control it,we should control the wires in one Group step by step. We should follow the Control steps:  
-![Wire_Group]()
+![Wire_Group](https://github.com/embedded-learning-group/Linux_Learning/blob/master/20190808_Lesson4/Stepper-Motor.png)
 
 | A+ | A- | B+ | B- |
 | :-----: | :----: | :----: | :----: |
