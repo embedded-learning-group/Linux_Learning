@@ -18,15 +18,15 @@ GPIO.setup(green_pin_light,GPIO.OUT)
 def red_or_green_light(color):
     if color == '1':
         
-        GPIO.output(red_pin_light,False)
-        
-        GPIO.output(green_pin_light,True)
+        GPIO.output(red_pin_light,True)
+        time.sleep(fucking_time)
+        GPIO.output(green_pin_light,False)
         
     if color == '0':
         
-        GPIO.output(green_pin_light,False)
-        
-        GPIO.output(red_pin_light,True)
+        GPIO.output(green_pin_light,True)
+        time.sleep(fucking_time)
+        GPIO.output(red_pin_light,False)
         
         
            # time.sleep(x_motor_speed)
@@ -35,12 +35,12 @@ for i in range(1,50,1):
     if i%2==1:
         print (' red ')
         red_or_green_light('1')
-        time.sleep(fucking_time)
+        #time.sleep(fucking_time)
        
     else:
         print ('green')
         red_or_green_light('0')
-        time.sleep(fucking_time)
+        #time.sleep(fucking_time)
        
 
         #GPIO.output(x_motor_pin_EN,True)
