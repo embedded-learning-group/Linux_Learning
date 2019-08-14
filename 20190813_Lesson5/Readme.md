@@ -122,5 +122,5 @@ while True:
 ## Homework  
 使用wiringPi控制A4988驱动器驱动42步进电机正反旋转.
 ## Reference:  
-[分辨5线单极性步进电机接头](https://www.cnblogs.com/yuwl26/p/3314057.html)  
-[步进电机24BYJ48定子线圈的原理](https://www.zhihu.com/question/53400260)
+[分辨5线单极性步进电机接头.](https://www.cnblogs.com/yuwl26/p/3314057.html)  
+[步进电机24BYJ48定子线圈的原理.](https://www.zhihu.com/question/53400260)
