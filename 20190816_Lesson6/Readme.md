@@ -101,6 +101,8 @@ If there is some function we need in the other c file,we need to link the file t
   clean:
 	  rm main.o mymath.o binary
   ```  
+## Homework.  
+完成所有的前述课程中使用Python&RPi.GPIO的家庭作业，本次课堂上讲解的Led闪烁的程序暂时不需完成(课堂完成实验)，42-StepMotor/24BYJ48-StepMotor的C语言控制程序需要完成！  
 ## Reference.  
 [引脚对照表](https://blog.csdn.net/ylzmm/article/details/89396530)  
 [树莓派B+ RPi & wringPi Lib install](https://www.cnblogs.com/uestc-mm/p/6290521.html)  
