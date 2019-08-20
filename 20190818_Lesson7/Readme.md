@@ -143,4 +143,6 @@ Step3. Running
 ## Reference  
 [Linux下C语言进程通讯编程](https://www.cnblogs.com/uestc-mm/p/7630154.html)  
 [Linux下C语言的进程控制编程](https://www.cnblogs.com/uestc-mm/p/7630161.html)  
-[C语言多线程pthread库相关函数说明](https://www.cnblogs.com/mq0036/p/3710475.html)
+[C语言多线程pthread库相关函数说明](https://www.cnblogs.com/mq0036/p/3710475.html)  
+[pthread 使用入门](https://www.jianshu.com/p/88fdd500cf44)  
+[Linux多线程学习总结](https://www.cnblogs.com/luoxn28/p/6087649.html)
