@@ -2,8 +2,8 @@
 
 int led1_pin = 0;
 int led2_pin = 1;
-int led3_pin = 2;
-int led4_pin = 3;
+int led3_pin = 4;
+int led4_pin = 5;
 
 int led_init(int *pinNum,int n)
 {
